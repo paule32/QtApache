@@ -7,5 +7,7 @@
         <file>img/1417835-200.png</file>
         <file>img/online.jpeg</file>
         <file>img/offline.jpeg</file>
+        <file>img/modem1.png</file>
+        <file>img/modem2.png</file>
     </qresource>
 </RCC>
