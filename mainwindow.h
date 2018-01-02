@@ -2,6 +2,7 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include <QTreeWidgetItem>
 
 namespace Ui {
 class MainWindow;
@@ -26,6 +27,12 @@ private slots:
 
     void on_actionOffline_triggered();
 
+    void on_treeWidget_4_itemDoubleClicked(QTreeWidgetItem *item, int column);
+
+    void on_checkBox_clicked();
+
+    void on_checkBox_5_clicked();
+    
 private:
     Ui::MainWindow *ui;
 };
